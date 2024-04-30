@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container" class="accordion" id="accordionExample">
+      <h1>FAQ</h1>
+      <hr />
+      <div class="card">
+        <div class="card-header" id="subject1">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse1"
+            aria-expanded="true"
+            aria-controls="collapse1"
+          >
+            Kim jest Front End Developer?
+          </button>
+        </div>
+
+        <div
+          id="collapse1"
+          class="collapse"
+          aria-labelledby="subject1"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia
+            voluptas mollitia dicta minus incidunt doloribus est, enim odit
+            deleniti. Quos facere vitae fuga vel, possimus praesentium
+            reiciendis perferendis minus?
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="subject2">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse2"
+            aria-expanded="false"
+            aria-controls="collapse2"
+          >
+            Od czego zaczyna się nauka?
+          </button>
+        </div>
+        <div
+          id="collapse2"
+          class="collapse"
+          aria-labelledby="subject2"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+            nemo in quae cumque mollitia ex porro, vitae itaque qui. Ut, impedit
+            nemo officiis eius libero veritatis dignissimos sunt iure
+            laboriosam.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="subject3">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse3"
+            aria-expanded="false"
+            aria-controls="subject3"
+          >
+            Znam już podstawy, co dalej?
+          </button>
+        </div>
+        <div
+          id="collapse3"
+          class="collapse"
+          aria-labelledby="subject3"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            veniam aspernatur quasi nobis nam itaque, ratione sint corporis
+            impedit ad totam cum odit maxime quas perspiciatis quisquam
+            asperiores eum! Labore!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
